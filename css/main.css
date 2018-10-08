@@ -1,0 +1,24 @@
+.container {
+  margin-top: 12.5vh;
+}
+
+.phone {
+  height: 75vh;
+}
+
+h4 {
+  font-weight: 400;
+}
+
+.top-gap {
+  margin-top: 17.5vh;
+}
+
+@media only screen and (max-width: 800px) {
+  .top-gap {
+    margin-top: 7.5vh;
+  }
+  body {
+    text-align: center;
+  }
+}
