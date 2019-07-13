@@ -15,8 +15,14 @@ h4 {
 }
 
 @media only screen and (max-width: 800px) {
+  .container {
+    margin-top: 32px;
+  }
   .top-gap {
-    margin-top: 7.5vh;
+    margin-top: 32px;
+  }
+  .phone {
+    height: 50vh;
   }
   body {
     text-align: center;
