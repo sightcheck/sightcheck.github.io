@@ -41,6 +41,14 @@ h4 {
   body {
     text-align: center;
   }
+  .navbar {
+    height: 5vh;
+    margin: 2.5vh 0vh 7.5vh 0vh;
+  }
+  .text-container {
+    height: 20vh;
+    margin-top: 7.5vh;
+  }
   footer {
     margin-top: 15vh;
   }
