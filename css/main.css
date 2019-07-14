@@ -1,30 +1,54 @@
-.container {
+/* Welcome to unfunny code comments part 2 */
+.navbar {
+  height: 10vh;
+  margin: 2.5vh 0vh 12.5vh 0vh;
+}
+
+/* Feet 2.0 */
+footer {
+  height: 10vh;
   margin-top: 12.5vh;
 }
 
-.phone {
-  height: 75vh;
+/* looking left, because you didn't margin right */
+.logo {
+  margin-right: 16px;
 }
 
+/* I'm talking about this: https://en.wikipedia.org/wiki/Phone */
+.phone {
+  height: 50vh;
+}
+
+/* Almost as good as container-text */
+.text-container {
+  height: 20vh;
+  margin-top: 10vh;
+}
+
+/* I don't actually own a store :( That's the Google Play Store Button */
+.store-button {
+  max-width: 200px;
+}
+
+/* h4h4h4h4 */
 h4 {
   font-weight: 400;
 }
 
-.top-gap {
-  margin-top: 17.5vh;
-}
-
+/* Mobile devices like it centered */
 @media only screen and (max-width: 800px) {
-  .container {
-    margin-top: 32px;
-  }
-  .top-gap {
-    margin-top: 32px;
-  }
-  .phone {
-    height: 50vh;
-  }
   body {
     text-align: center;
+  }
+  footer {
+    margin-top: 15vh;
+  }
+}
+
+/* Mobile devices like it centered */
+@media only screen and (max-width: 400px) {
+  footer {
+    margin-top: 35vh;
   }
 }
