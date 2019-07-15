@@ -7,7 +7,8 @@
 /* Feet 2.0 */
 footer {
   height: 10vh;
-  margin-top: 12.5vh;
+  margin-top: 30vh;
+  color: #bdbdbd;
 }
 
 /* looking left, because you didn't margin right */
@@ -36,6 +37,27 @@ h4 {
   font-weight: 400;
 }
 
+/* Blue bubble effect */
+@media only screen and (min-width: 1200px) {
+  .phone {
+    height: 50vh;
+    display: flex;
+    position:absolute;
+    margin-left: 5.5vw;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bubble {
+    height: 45vh;
+    width: 45vh;
+    position:absolute;
+    margin-top: 2.5vh;
+    border-radius: 98% 48% 64% 100% / 80% 69% 99% 92%;
+    background-image: linear-gradient(to top, #03a9f4 0%, #40c4ff 100%);
+  }
+}
+
 /* Mobile devices like it centered */
 @media only screen and (max-width: 800px) {
   body {
@@ -50,13 +72,13 @@ h4 {
     margin-top: 7.5vh;
   }
   footer {
-    margin-top: 15vh;
+    margin-top: 12.5vh;
   }
 }
 
 /* Mobile devices like it centered */
 @media only screen and (max-width: 400px) {
   footer {
-    margin-top: 35vh;
+    margin-top: 22.5vh;
   }
 }
