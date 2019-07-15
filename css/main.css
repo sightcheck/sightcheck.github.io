@@ -52,9 +52,9 @@ h4 {
     height: 45vh;
     width: 45vh;
     position:absolute;
-    margin-top: 2.5vh;
-    border-radius: 98% 48% 64% 100% / 80% 69% 99% 92%;
-    background-image: linear-gradient(to top, #03a9f4 0%, #40c4ff 100%);
+    top: -2.5vh;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background: linear-gradient(to top, #03a9f4 0%, #40c4ff 100%);
   }
 }
 
