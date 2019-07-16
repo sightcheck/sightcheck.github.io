@@ -11,6 +11,10 @@ footer {
   color: #bdbdbd;
 }
 
+h4 {
+  font-weight: 400;
+}
+
 /* looking left, because you didn't margin right */
 .logo {
   margin-right: 16px;
@@ -32,17 +36,12 @@ footer {
   max-width: 200px;
 }
 
-/* h4h4h4h4 */
-h4 {
-  font-weight: 400;
-}
-
 /* Blue bubble effect */
 @media only screen and (min-width: 1200px) {
   .phone {
     height: 50vh;
     display: flex;
-    position:absolute;
+    position: absolute;
     margin-left: 5.5vw;
     align-items: center;
     justify-content: center;
@@ -51,7 +50,7 @@ h4 {
   .bubble {
     height: 45vh;
     width: 45vh;
-    position:absolute;
+    position: absolute;
     top: -2.5vh;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     background: linear-gradient(to top, #03a9f4 0%, #67daff 100%);
