@@ -36,6 +36,11 @@ h4 {
   max-width: 200px;
 }
 
+/* Spacing between social media icons */
+.fa {
+  margin: 4px;
+}
+
 /* Blue bubble effect */
 @media only screen and (min-width: 1200px) {
   .phone {
