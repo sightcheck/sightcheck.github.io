@@ -81,9 +81,26 @@ h4 {
   }
 }
 
-/* Mobile devices like it centered */
+@media only screen and (max-width: 1200px) {
+  footer {
+    margin-top: 10vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  footer {
+    margin-top: 20vh;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   footer {
-    margin-top: 22.5vh;
+    margin-top: 30vh;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  footer {
+    margin-top: 45vh;
   }
 }
